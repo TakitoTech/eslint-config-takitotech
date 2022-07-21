@@ -1,5 +1,8 @@
-// Sync up with package.json > eslint instead of eslintConfig...
-module.exports = {
+const { GetIgnorePatterns } = require("./helper");
+
+const ignorePatterns = GetIgnorePatterns();
+
+module.exports.config = {
 	root: true,
 	parser: "@typescript-eslint/parser",
 	parserOptions: {
@@ -11,6 +14,7 @@ module.exports = {
 		es6: true,
 		node: true,
 	},
+	ignorePatterns,
 	extends: [
 		"eslint:recommended",
 		// typescript
