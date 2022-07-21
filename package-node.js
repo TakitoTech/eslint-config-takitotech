@@ -2,7 +2,7 @@ const { GetIgnorePatterns } = require("./helper");
 
 const ignorePatterns = GetIgnorePatterns();
 
-module.exports.config = {
+module.exports = {
 	root: true,
 	parser: "@typescript-eslint/parser",
 	parserOptions: {

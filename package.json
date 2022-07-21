@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-takitotech",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Eslint config for takitotech",
 	"main": "index.js",
 	"scripts": {
