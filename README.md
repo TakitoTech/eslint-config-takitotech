@@ -13,13 +13,13 @@ Use when create a custom node js package
 
 ```
 {
-	"extends": "eslint-config-package-node"
+	"extends": ["eslint-config-package-node"]
 }
 ```
 or
 
 ```
 {
-	"extends": "package-node"
+	"extends": ["package-node"]
 }
 ```
